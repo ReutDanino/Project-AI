@@ -1,10 +1,11 @@
 # Project-AI
-Help for dyslexic patients in recognizing reversed letters
+Assisting dyslexic individuals in identifying reversed letters written in mirror script is the aim of this project.
+Such individuals often struggle to discern whether they've written a letter correctly.
 
-The purpose of this project is to help dyslexic patients locate reversed letters written in mirror script.
-These people have no way of knowing whether they wrote the letter correctly.
+Presently, there exists no solution to aid them in handwritten writing; technological alternatives primarily involve computerized assistance.
+To enable them to engage in manual writing tasks like others, we devised this project.
 
-Today there is no solution that helps them write properly by hand, but only technological solutions that include computerized writing. In order for them to be able to write everyday things by hand like other people, we developed this project.
-
-The user must upload a photo of a handwritten text and the text will be returned to him with the reverse letters marked.
-In the project we used an existing model from Hugging Face whose purpose is to convert text from a handwritten image to computer text. With the help of this model we were able to create a comparison between three texts. One of the text from the original model, the second of images of letters each of which was uploaded to the model and the letter was returned from it, and the third of the reverse image, and reading each image of a letter from it. Comparing the three, helped to locate the opposite letters. After marking those letters, we returned to the user.
+Users are required to upload a photo of handwritten text, which will then be returned to them with reversed letters highlighted.
+Leveraging an existing model from Hugging Face, designed to transcribe handwritten text into digital format, we facilitated a comparison across three texts.
+This involved the original model's output, images of individual letters uploaded to the model and returned, and the reverse image, with each letter being analyzed.
+By juxtaposing these texts, we successfully identified the reversed letters, which were then highlighted and returned to the user.

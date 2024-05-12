@@ -1,5 +1,6 @@
 # Project-AI
 Assisting dyslexic individuals in identifying reversed letters written in mirror script is the aim of this project.
+
 Such individuals often struggle to discern whether they've written a letter correctly.
 
 Presently, there exists no solution to aid them in handwritten writing; technological alternatives primarily involve computerized assistance.
